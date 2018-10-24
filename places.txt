@@ -1,27 +1,58 @@
-4
-Susan
-Visited: Cincinnati, OH
-39.1031
--84.5120
-darkblue
-Hailey
-Hometown: Winchester, KY
-37.9901
--84.1797
-lightgreen
+8
+
+
 Susan
 Hometown: San Salvador, El Salvador
 13.6929
 -89.2182
-orange
-Emily
-Most Interesting Place: Reykjavik, Iceland
-64.147210
--21.942400
 red
 
+Susan
+Visited: Cincinnati, OH
+39.1031
+-84.5120
+orange
 
-# NOTES:
-# 1) The first number represents the number of entries in the file. Make sure you update that number if you add more.
-# 2) No spaces between entries! The code doesn't handle blank lines.
-# 3) Don't forget the type of data for each line as you create the code
+#TODO
+Susan
+Visited:
+Latitude
+Longitude
+yellow
+
+#TODO
+Susan
+Interested:
+Latitude
+Longitude
+lightgreen
+
+
+Hailey
+Hometown: Winchester, KY
+37.9901
+-84.1797
+darkgreen
+
+
+Hailey
+Visited: Jackson, KY
+37.5531
+-83.3835
+lightblue
+
+Hailey
+Visited: New Orleans, LA
+29.9511
+-90.0715
+darkblue
+
+Hailey
+Interested: Toronto, Canada
+43.6532
+-79.3832
+purple
+
+
+#TODO fill out one visited and one interested places listed above.
+#TODO get rid of all the spaces. I did this for organizational purposes.
