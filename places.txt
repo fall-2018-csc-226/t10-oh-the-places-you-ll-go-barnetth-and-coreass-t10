@@ -1,18 +1,18 @@
 4
-Scott
-Hometown: New Virginia, IA
-41.156537
--93.7107200
+Susan
+Visited: Cincinnati, OH
+39.1031
+-84.5120
 darkblue
-Scott
-Awesome city: Edinburgh, Scotland
-55.950190
--3.187550
+Hailey
+Hometown: Winchester, KY
+37.9901
+-84.1797
 lightgreen
-Emily
-Hometown: Pittsburgh, PA
-40.932850
--80.358543
+Susan
+Hometown: San Salvador, El Salvador
+13.6929
+-89.2182
 orange
 Emily
 Most Interesting Place: Reykjavik, Iceland
