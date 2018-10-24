@@ -1,12 +1,9 @@
 # T10: Oh, the Places You'll Go!
 
+Name 1: Susan Coreas
 
-Name 1: ____________
+Name 2: Hailey Barnett
 
-Name 2: ____________
+Repository Link: https://github.com/fall-2018-csc-226/t10-oh-the-places-you-ll-go-barnetth-and-coreass-t10.git
 
-Name 3 (if needed): ____________
-
-Repository Link: ______________
-
-Google Document Link: ______________
+Google Document Link: https://docs.google.com/document/d/196g3Wg_nO_zAR8WSfUqYva6C9HJ8nghzgVXbxPFTh4E/edit?usp=sharing
