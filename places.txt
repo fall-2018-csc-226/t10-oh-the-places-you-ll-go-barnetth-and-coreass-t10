@@ -1,58 +1,42 @@
 8
-
-
 Susan
 Hometown: San Salvador, El Salvador
 13.6929
 -89.2182
 red
-
 Susan
 Visited: Cincinnati, OH
 39.1031
 -84.5120
 orange
-
-#TODO
 Susan
-Visited:
-Latitude
-Longitude
+Visited: Los Angeles, CA
+34.0522
+-118.2437
 yellow
-
-#TODO
 Susan
-Interested:
-Latitude
-Longitude
+Interested: Tokyo, Japan
+35.6895
+139.6917
 lightgreen
-
-
 Hailey
 Hometown: Winchester, KY
 37.9901
 -84.1797
 darkgreen
-
-
 Hailey
 Visited: Jackson, KY
 37.5531
 -83.3835
 lightblue
-
 Hailey
 Visited: New Orleans, LA
 29.9511
 -90.0715
 darkblue
-
 Hailey
 Interested: Toronto, Canada
 43.6532
 -79.3832
 purple
 
-
-#TODO fill out one visited and one interested places listed above.
-#TODO get rid of all the spaces. I did this for organizational purposes.
