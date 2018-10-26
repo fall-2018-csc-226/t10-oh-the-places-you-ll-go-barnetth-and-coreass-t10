@@ -1,6 +1,6 @@
 ######################################################################
-# Author: Susan Coreas, Hailey Barnett   TODO: Change this to your names
-# Username: barnetth, coreass             TODO: Change this to your usernames
+# Author: Susan Coreas, Hailey Barnett
+# Username: barnetth, coreass
 #
 # Assignment: T10: Oh, the Places You'll Go!
 #
@@ -31,14 +31,14 @@ def parse_file(filename):
     # You do not need to modify this function!
     #####################################################
 
-    file_content = open(filename, 'r')           # Opens file for reading
+    file_content = open(filename, 'r')  # Opens file for reading
 
-    str_num = file_content.readline()           # The first line of the file, which is the number of entries in the file
-    str_num = int(str_num[:-1])                 # The '/n' character needs to be removed
+    str_num = file_content.readline()  # The first line of the file, which is the number of entries in the file
+    str_num = int(str_num[:-1])  # The '/n' character needs to be removed
 
     places_list = []
     for i in range(str_num):
-        places_list.append(extract_place(file_content))         # Assembles the list of places
+        places_list.append(extract_place(file_content))  # Assembles the list of places
 
     file_content.close()
 
@@ -61,20 +61,20 @@ def place_pin(window, place):
     pin = turtle.Turtle()
     pin.penup()
     if len(place) == 5:
-        pin.color(place[4])                     # Set the pin to user's chosen color
-    pin.shape("circle")                     # Sets the pin to a circle shape
+        pin.color(place[4])  # Set the pin to user's chosen color
+    pin.shape("circle")  # Sets the pin to a circle shape
 
     # Logically, the denominator for longitude should be 360; lat should be 180.
     # These values (195 and 120) were determined through testing to account for
     # the extra white space on the edges of the map. You shouldn't change them!
     if len(place) == 5:
         pin.goto((place[3] / 195) * window.window_width() / 2, (place[2] / 120) * window.window_height() / 2)
-    pin.stamp()                             # Stamps on the location
+    pin.stamp()  # Stamps on the location
 
     text = "Unknown place"
     if len(place) == 5:
-        text = "{0}'s place:\n    {1}".format(place[0], place[1])   # Setting up pin label
-    pin.write(text, font=("Arial", 10, "bold"))                 # Stamps the text describing the location
+        text = "{0}'s place:\n    {1}".format(place[0], place[1])  # Setting up pin label
+    pin.write(text, font=("Arial", 10, "bold"))  # Stamps the text describing the location
 
 
 def extract_place(file_content):
@@ -88,24 +88,20 @@ def extract_place(file_content):
     :return: a tuple representing a single place.
     """
 
-    # TODO   Read the next five lines of the file, we've done the first one for you (name = ...).
-    # TODO   The order of the lines are: name, location, latitude, longitude, and user color.
-    # TODO   Take a look at places.txt to see the structure of the data.
-    # TODO   Just like above (line 37), you need to remove the last character (\n).
     # TODO   Once you've got the code working for all five lines, add a conditional that checks to see if
     # TODO   the line starts with a #; if it does, ignore that line.
 
     name = file_content.readline().strip("\n")
     location = file_content.readline().strip("\n")
-    latitude = file_content.readline().strip("\n")
-    latitude = float(latitude[:-1])
-    longitude = file_content.readline().strip("\n")
-    longitude= float(longitude[:-1])
+    latitude = float(file_content.readline().strip("\n"))
+
+    longitude = float(file_content.readline().strip("\n"))
+
     color = file_content.readline().strip("\n")
 
     # FIXME Construct a tuple with all five values in the correct order. Don't forget types, and tuples are immutable!
     # Example: place_tuple = ("Scott's example", "Somewhere special", 41, -10, "black")
-    place_tuple = (name,location,latitude,longitude,color)      # Finish assembling the tuple!
+    place_tuple = (name, location, latitude, longitude, color)  # Finish assembling the tuple!
     return place_tuple
 
 
@@ -129,7 +125,7 @@ def main():
     wn.bgpic("world-map.gif")
     wn.title("Oh, the Places You'll Go!")
 
-    place_list = parse_file(in_file)        # generates place_list from the file
+    place_list = parse_file(in_file)  # generates place_list from the file
 
     # Iterates through each item in the place_list list, calling the place_pin() function
     for place in place_list:
