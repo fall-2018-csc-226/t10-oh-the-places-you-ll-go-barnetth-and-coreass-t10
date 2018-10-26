@@ -106,7 +106,7 @@ def extract_place(file_content):
 
     # FIXME Construct a tuple with all five values in the correct order. Don't forget types, and tuples are immutable!
     # Example: place_tuple = ("Scott's example", "Somewhere special", 41, -10, "black")
-    place_tuple = (name,location,latitude,longitude,color)      # Finish assembling the tuple!
+    place_tuple = (name,location,color)      # Finish assembling the tuple!
     return place_tuple
 
 
